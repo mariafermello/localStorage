@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: #f4eaf1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.container {
+  width: 100%;
+  max-width: 560px;
+  background: white;
+  padding: 28px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.10);
+}
+
+h1 {
+  color: #8b3565;
+  margin-top: 0;
+}
+
+p {
+  color: #555;
+  line-height: 1.5;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+  margin: 22px 0;
+}
+
+input {
+  flex: 1;
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid #c9a6bb;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  border: 0;
+  border-radius: 8px;
+  padding: 12px 16px;
+  background: #8b3565;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  background: #6e2850;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  margin-bottom: 8px;
+  background: #f8f1f5;
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+}
+
+li button {
+  padding: 7px 10px;
+  background: #b34a4a;
+}
+
+.secundario {
+  background: #555;
+  margin-top: 8px;
+}
+
+#mensagem {
+  min-height: 20px;
+  color: #8b3565;
+}
